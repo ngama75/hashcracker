@@ -1,0 +1,11 @@
+[Unit]
+Description=HashCracker Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/hashcracker
+Restart=on-failure
+RestartSec=20s
+
+[Install]
+WantedBy=multi-user.target
