@@ -1,0 +1,8 @@
+Source: hashcracker
+Maintainer: Nicolas Gama <nicolas.gama@uvsq.fr>
+Build-depends: libmbedtls-dev, libjson11-1-dev, cmake, build-essential, debhelper
+
+Package: hashcracker
+Architecture: amd64
+Depends: curl, ${shlibs:Depends}
+Description: hashcracker
